@@ -24,3 +24,21 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.0.104`](https://github.com/holochain/holochain/tree/d003eb7a45f1d7125c4701332202761721793d68) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Aug 25, 2021* | [v0.0.104/default.nix](v0.0.104/default.nix) |
 | [`v0.0.105`](https://github.com/holochain/holochain/tree/ea6b780f02069c0ef46aeef0406b0929847a2b02) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Sep 1, 2021*  | [v0.0.105/default.nix](v0.0.105/default.nix) |
 | [`v0.0.106`](https://github.com/holochain/holochain/tree/b11908875a9f6a09e8939fbf6f45ff658e3d10a6) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Sep 16, 2021* | [v0.0.106/default.nix](v0.0.106/default.nix) |
+
+
+## Extending Build Inputs
+Adding `buildInputs` inside `mkShell` properties will allow you to specify additional dependencies
+for your project.
+
+Example of adding [Node.js v14](https://nodejs.org/dist/latest-v14.x/docs/api/)
+```diff
+   };
+   nixpkgs = holonix.pkgs;
+ in nixpkgs.mkShell {
+   inputsFrom = [ holonix.main ];
+
++  buildInputs = with nixpkgs; [
++    nodejs-14_x
++  ];
+ }
+```
