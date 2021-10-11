@@ -1,5 +1,5 @@
 let
-  holonixPath = builtins.fetchTarball {
+  holonixPath = builtins.fetchTarball { # Aug 18, 2021
     url = "https://github.com/holochain/holonix/archive/6ae8ffb8e5c1a1faa4f4e1af8a9f7139b2ce0f3c.tar.gz";
     sha256 = "0ksvy2m7gpxf5r7l1rznvjwajypk7iii3h5d8nx762kah55nyliq";
   };

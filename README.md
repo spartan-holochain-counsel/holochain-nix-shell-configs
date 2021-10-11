@@ -26,6 +26,7 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.0.106`](https://github.com/holochain/holochain/tree/b11908875a9f6a09e8939fbf6f45ff658e3d10a6) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Sep 16, 2021* | [v0.0.106/default.nix](v0.0.106/default.nix) |
 | [`v0.0.107`](https://github.com/holochain/holochain/tree/221f3424a919224dcf1950d1059e8b88aba08f7b) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Sep 22, 2021* | [v0.0.107/default.nix](v0.0.107/default.nix) |
 | [`v0.0.108`](https://github.com/holochain/holochain/tree/cad04aec3fb5f137b2d224ab29dcc204af7b9821) | [`v0.0.4`](https://github.com/holochain/lair/tree/d3155ac98ec550c6b5eb097923556958015f9354)          | *Sep 29, 2021* | [v0.0.108/default.nix](v0.0.108/default.nix) |
+| [`v0.0.109`](https://github.com/holochain/holochain/tree/e5a480ce735beaa8ae7434abdb1b6dc03d487ffa) | [`v0.0.7`](https://github.com/holochain/lair/tree/bd92b76ad9cc18bc0c0db215e4bea9767c9003cf)          | *Oct 7, 2021*  | [v0.0.109/default.nix](v0.0.109/default.nix) |
 
 
 ## Extending Build Inputs
