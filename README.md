@@ -47,9 +47,10 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.0.153`](https://github.com/holochain/holochain/tree/005c15c06404f41baa77e4533a32cef93a69ed3b) | *Aug 10, 2022* | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.153/default.nix](v0.0.153/default.nix) |
 | `v0.0.154` skipped                                                                                 |                |                                                                                                      |                                              |
 | [`v0.0.155`](https://github.com/holochain/holochain/tree/ab8c5552111da73971554ea3d80e473c97b5c650) | *Aug 20, 2022* | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.155/default.nix](v0.0.155/default.nix) |
-| `v0.0.156` skipped                                                                                 |                |                                                                                                      |                                              |
-| `v0.0.157` skipped                                                                                 |                |                                                                                                      |                                              |
+| `v0.0.156` to `v0.0.157` skipped                                                                   |                |                                                                                                      |                                              |
 | [`v0.0.158`](https://github.com/holochain/holochain/tree/0cd777c789ee13ca655f9bffbd7fe11b49e47824) | *Aug 31, 2022* | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.158/default.nix](v0.0.158/default.nix) |
+| `v0.0.159` to `v0.0.160` skipped                                                                   |                |                                                                                                      |                                              |
+| [`v0.0.161`](https://github.com/holochain/holochain/tree/cf8adc073596f4f5fc3dcf31c30bc8ade47a6f93) | *Sep 8, 2022*  | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.161/default.nix](v0.0.161/default.nix) |
 
 
 
