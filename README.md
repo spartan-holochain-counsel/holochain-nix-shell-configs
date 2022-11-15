@@ -51,6 +51,8 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.0.158`](https://github.com/holochain/holochain/tree/0cd777c789ee13ca655f9bffbd7fe11b49e47824) | *Aug 31, 2022* | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.158/default.nix](v0.0.158/default.nix) |
 | `v0.0.159` to `v0.0.160` skipped                                                                   |                |                                                                                                      |                                              |
 | [`v0.0.161`](https://github.com/holochain/holochain/tree/cf8adc073596f4f5fc3dcf31c30bc8ade47a6f93) | *Sep 8, 2022*  | [`v0.2.0`](https://github.com/holochain/lair/tree/20b18781d217f172187f16a0ef86b78eb1fcd3bd)          | [v0.0.161/default.nix](v0.0.161/default.nix) |
+| `v0.0.162` to `v0.0.171` skipped                                                                   |                |                                                                                                      |                                              |
+| [`v0.0.172`](https://github.com/holochain/holochain/tree/c39dac04fc87bc1325a8bb6fce275caedaa07eb3) | *Nov 9, 2022*  | [`v0.2.1`](https://github.com/holochain/lair/tree/840999730ff2a5bacea8a31ed8fbacc954291b5c)          | [v0.0.172/default.nix](v0.0.172/default.nix) |
 
 
 
