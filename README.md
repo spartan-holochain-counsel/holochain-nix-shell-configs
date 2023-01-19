@@ -57,6 +57,7 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.0.175`](https://github.com/holochain/holochain/tree/64286bf7aa10e9e93032361a69843daa354fdb1b)         | *Nov 30, 2022* | [`v0.2.2`](https://github.com/holochain/lair/tree/004d15c05f51bb625cb5c8db6e71f4a58ff4d3fe)          | [v0.0.175/default.nix](v0.0.175/default.nix)       |
 | [`v0.1.0-beta-rc.1`](https://github.com/holochain/holochain/tree/eb1e637c353190bfdba8b742c6b8bbb1b3f4a669) | *Dec 16, 2022* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b)          | [v0.1.0-rc.1/default.nix](v0.1.0-rc.1/default.nix) |
 | [`v0.1.0-beta-rc.2`](https://github.com/holochain/holochain/tree/c8e953101af374f57f0aa7b46bee631300655045) | *Dec 23, 2022* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b)          | [v0.1.0-rc.2/default.nix](v0.1.0-rc.2/default.nix) |
+| [`v0.1.0-beta-rc.3`](https://github.com/holochain/holochain/tree/60c042dbc8cc11aef091931c2758bb3e0d816662) | *Jan 17, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b)          | [v0.1.0-rc.3/default.nix](v0.1.0-rc.3/default.nix) |
 
 
 
