@@ -61,17 +61,37 @@ The `nix-shell` environment created with these `default.nix` files will have
 | [`v0.1.0-beta-rc.4`](https://github.com/holochain/holochain/tree/2730fc80a4c87144fc0a755862628af5448b96fd) | *Jan 20, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b)          | [v0.1.0-rc.4/default.nix](v0.1.0-rc.4/default.nix) |
 
 
-| Holochain Version (beta)                                                                         | Commit Date    | Lair Version                                                                                | `default.nix`                            |
-|--------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------|
-| [`v0.1.0`](https://github.com/holochain/holochain/tree/41150668b18a57f4dc801a0b3439c1c76e149064) | *Jan 26, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.0/default.nix](v0.1.0/default.nix) |
+| Holochain Version (beta)                                                                                   | Commit Date    | Lair Version                                                                                | `default.nix`                                  |
+|------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------------|
+| [`v0.1.0`](https://github.com/holochain/holochain/tree/41150668b18a57f4dc801a0b3439c1c76e149064)           | *Jan 26, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.0/default.nix](v0.1.0/default.nix)       |
+| [`v0.2.0-beta-rc.1`](https://github.com/holochain/holochain/tree/1f765d0b8d82d0f568ee8c42a33f0863c2a0bc90) | *Mar 22, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.1/flake.nix](v0.2.0-rc.1/flake.nix) |
 
 
 
 ## Extending Build Inputs
+
+### Nix Flake (ie. `nix develop`)
+
+Example of adding [Node.js v18](https://nodejs.org/dist/latest-v18.x/docs/api/) to `flake.nix`
+```diff
+{
+   ...
+             devShells.default = pkgs.mkShell {
+               inputsFrom = [ inputs.holochain-flake.devShells.${system}.holonix ];
+               packages = with pkgs; [
++                nodejs-18_x
+               ];
+             };
+   ...
+ }
+```
+
+
+### Legacy (ie. `nix-shell`)
 Adding `buildInputs` inside `mkShell` properties will allow you to specify additional dependencies
 for your project.
 
-Example of adding [Node.js v14](https://nodejs.org/dist/latest-v14.x/docs/api/)
+Example of adding [Node.js v14](https://nodejs.org/dist/latest-v14.x/docs/api/) to `default.nix`
 ```diff
    };
    nixpkgs = holonix.pkgs;
