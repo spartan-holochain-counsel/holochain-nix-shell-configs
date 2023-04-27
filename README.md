@@ -16,19 +16,19 @@ The Nix shell environment created with these configurations will have
 - `hc`
 
 
-| Holochain Version (beta)                                                                                   | Commit Date    | Lair Version                                                                                | `default.nix`                                  |
-|------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------------|
-| [`v0.1.0`](https://github.com/holochain/holochain/tree/41150668b18a57f4dc801a0b3439c1c76e149064)           | *Jan 26, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.0/default.nix](v0.1.0/default.nix)       |
-| [`v0.2.0`](https://github.com/holochain/holochain/tree/efe64a7f5dfbddc257945bf368db81c7b68de1bd)           | *Apr 27, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0/flake.nix](v0.2.0/flake.nix)           |
+| Holochain Version (beta)                                                                         | Commit Date    | Lair Version                                                                                | `default.nix`                            |
+|--------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------|
+| [`v0.1.0`](https://github.com/holochain/holochain/tree/41150668b18a57f4dc801a0b3439c1c76e149064) | *Jan 26, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.0/default.nix](v0.1.0/default.nix) |
+| [`v0.2.0`](https://github.com/holochain/holochain/tree/efe64a7f5dfbddc257945bf368db81c7b68de1bd) | *Apr 27, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.0/flake.nix](v0.2.0/flake.nix)     |
 
 
 ### Development Versions
 
-| Holochain Versions (beta)                                                                                | Commit Date    | Lair Version                                                                                | `default.nix`                                  |
+| Holochain Versions (beta)                                                                                  | Commit Date    | Lair Version                                                                                | `default.nix`                                  |
 |------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------------|
 | [`v0.2.0-beta-rc.1`](https://github.com/holochain/holochain/tree/1f765d0b8d82d0f568ee8c42a33f0863c2a0bc90) | *Mar 22, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.1/flake.nix](v0.2.0-rc.1/flake.nix) |
 | [`v0.2.0-beta-rc.4`](https://github.com/holochain/holochain/tree/9c4f10d16b28c977682010746c4a61641ecb68c8) | *Apr 13, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.4/flake.nix](v0.2.0-rc.4/flake.nix) |
-| [`v0.2.0-beta-rc.7`](https://github.com/holochain/holochain/tree/367914e54bafcdccff002e453c68795ea273c350) | *Apr 26, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.7/flake.nix](v0.2.0-rc.7/flake.nix) |
+| [`v0.2.0-beta-rc.7`](https://github.com/holochain/holochain/tree/367914e54bafcdccff002e453c68795ea273c350) | *Apr 26, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.0-rc.7/flake.nix](v0.2.0-rc.7/flake.nix) |
 
 
 ### Pre-beta Versions
