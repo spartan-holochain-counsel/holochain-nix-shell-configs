@@ -24,13 +24,14 @@ The Nix shell environment created with these configurations will have
 
 ### Development Versions
 
-| Holochain Versions (beta)                                                                                   | Commit Date    | Lair Version                                                                                | `default.nix`                                  |
-|-------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------------|
-| [`v0.2.0-beta-rc.1`](https://github.com/holochain/holochain/tree/1f765d0b8d82d0f568ee8c42a33f0863c2a0bc90)  | *Mar 22, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.1/flake.nix](v0.2.0-rc.1/flake.nix) |
-| [`v0.2.0-beta-rc.4`](https://github.com/holochain/holochain/tree/9c4f10d16b28c977682010746c4a61641ecb68c8)  | *Apr 13, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.4/flake.nix](v0.2.0-rc.4/flake.nix) |
-| [`v0.2.0-beta-rc.7`](https://github.com/holochain/holochain/tree/367914e54bafcdccff002e453c68795ea273c350)  | *Apr 26, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.0-rc.7/flake.nix](v0.2.0-rc.7/flake.nix) |
-| [`v0.1.5-beta-rc.1`](https://github.com/holochain/holochain/tree/155f0dd20ba32ce1fc2ed0ae9ebcc856ba6e8524)  | *May 8, 2023*  | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.5-rc.1/flake.nix](v0.1.5-rc.1/flake.nix) |
-| [`v0.2.1-beta-dev.0`](https://github.com/holochain/holochain/tree/a91b262e87653f5f2e3a50c06eaac2bb81fb88d3) | *May 15, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.1-rc.0/flake.nix](v0.2.1-rc.0/flake.nix) |
+| Holochain Versions (beta)                                                                                   | Commit Date    | Lair Version                                                                                | `default.nix`                                              |
+|-------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`v0.2.0-beta-rc.1`](https://github.com/holochain/holochain/tree/1f765d0b8d82d0f568ee8c42a33f0863c2a0bc90)  | *Mar 22, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.1/flake.nix](v0.2.0-rc.1/flake.nix)             |
+| [`v0.2.0-beta-rc.4`](https://github.com/holochain/holochain/tree/9c4f10d16b28c977682010746c4a61641ecb68c8)  | *Apr 13, 2023* | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.2.0-rc.4/flake.nix](v0.2.0-rc.4/flake.nix)             |
+| [`v0.2.0-beta-rc.7`](https://github.com/holochain/holochain/tree/367914e54bafcdccff002e453c68795ea273c350)  | *Apr 26, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.0-rc.7/flake.nix](v0.2.0-rc.7/flake.nix)             |
+| [`v0.1.5-beta-rc.1`](https://github.com/holochain/holochain/tree/155f0dd20ba32ce1fc2ed0ae9ebcc856ba6e8524)  | *May 8, 2023*  | [`v0.2.3`](https://github.com/holochain/lair/tree/cbfbefefe43073904a914c8181a450209a74167b) | [v0.1.5-rc.1/flake.nix](v0.1.5-rc.1/flake.nix)             |
+| [`v0.2.1-beta-dev.0`](https://github.com/holochain/holochain/tree/a91b262e87653f5f2e3a50c06eaac2bb81fb88d3) | *May 15, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.2.1-rc.0/flake.nix](v0.2.1-rc.0/flake.nix)             |
+| [`v0.3.0-beta-dev.2`](https://github.com/holochain/holochain/tree/e52628f155c423b49a020a90dc0fe87c8a205692) | *May 31, 2023* | [`v0.2.4`](https://github.com/holochain/lair/tree/43be404da0fd9d57bf4429c44def405bd6490f61) | [v0.3.0-beta-dev.2/flake.nix](v0.3.0-beta-dev.2/flake.nix) |
 
 
 ### Pre-beta Versions
