@@ -7,10 +7,10 @@ on:
 
 env:
   RUST_VERSION: 1.71.1
-  RELEASE_TAG: holochain-0.2.2
-  HOLOCHAIN_VERSION: 0.2.2
+  RELEASE_TAG: holochain-0.1.7
+  HOLOCHAIN_VERSION: 0.1.7
   LAIR_KEYSTORE_VERSION: 0.3.0
-  HC_VERSION: 0.2.2
+  HC_VERSION: 0.1.7
   NIX_STORE_PATH: "/nix/store/ld03l52xq2ssn4x0g5asypsxqls40497-glibc-2.37-8/lib/"
 
 jobs:
