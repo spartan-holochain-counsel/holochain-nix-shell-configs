@@ -1,0 +1,62 @@
+name: Tests that need Holochain binaries
+
+on:
+  pull_request:
+    branches:
+      - master
+
+env:
+  RUST_VERSION: 1.71.1
+  RELEASE_VERSION: holochain-0.2.2
+  HOLOCHAIN_VERSION: 0.2.2
+  LAIR_KEYSTORE_VERSION: 0.3.0
+  HC_VERSION: 0.2.2
+  NIX_STORE_PATH: "/nix/store/ld03l52xq2ssn4x0g5asypsxqls40497-glibc-2.37-8/lib/"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: ${{ env.RUST_VERSION }}
+
+      - name: Add wasm32-unknown-unknown target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Holochain Setup
+        uses: supplypike/setup-bin@v3
+        with:
+          name: holochain
+          version: "${{ env.HOLOCHAIN_VERSION }}"
+          uri: https://github.com/spartan-holochain-counsel/holochain-nix-shell-configs/releases/download/${{ env.RELEASE_VERSION }}/holochain-${{ env.HOLOCHAIN_VERSION }}
+
+      - name: Lair Keystore Setup
+        uses: supplypike/setup-bin@v3
+        with:
+          name: lair-keystore
+          version: "${{ env.LAIR_KEYSTORE_VERSION }}"
+          uri: https://github.com/spartan-holochain-counsel/holochain-nix-shell-configs/releases/download/${{ env.RELEASE_VERSION }}/lair-keystore-${{ env.LAIR_KEYSTORE_VERSION }}
+
+      - name: Holochain CLI Setup
+        uses: supplypike/setup-bin@v3
+        with:
+          name: hc
+          version: "${{ env.HC_VERSION }}"
+          uri: https://github.com/spartan-holochain-counsel/holochain-nix-shell-configs/releases/download/${{ env.RELEASE_VERSION }}/hc-${{ env.HC_VERSION }}
+
+      - name: Create expected symlink in nix path dependency
+        run: |
+          sudo mkdir -p ${{ env.NIX_STORE_PATH }}
+          sudo ln -s /lib64/ld-linux-x86-64.so.2 ${{ env.NIX_STORE_PATH }}
+
+      - name: Build Packages
+        run: echo "Replace with your build"
+
+      - name: Run Tests
+        run: echo "Replace with your tests"
