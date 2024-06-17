@@ -47,7 +47,7 @@ The Nix shell environment created with these configurations will have
 | [`v0.3.0-beta-dev.45`](https://github.com/holochain/holochain/tree/28dce06eef726cc7320637ab76ffe6f2798b12b8) | *Apr 10, 2024* | [`v0.4.4`](https://github.com/holochain/lair/tree/826be915efc839d1d1b8a2156b158999b8de8d5b) | [v0.3.0-beta-dev.45/flake.nix](v0.3.0-beta-dev.45/flake.nix) |
 | [`v0.3.0-beta-dev.48`](https://github.com/holochain/holochain/tree/b48562aa081b1dd177ec43035650262fbdb40d0e) | *Apr 25, 2024* | [`v0.4.4`](https://github.com/holochain/lair/tree/826be915efc839d1d1b8a2156b158999b8de8d5b) | [v0.3.0-beta-dev.48/flake.nix](v0.3.0-beta-dev.48/flake.nix) |
 | [`v0.4.0-dev.1`](https://github.com/holochain/holochain/tree/f64ad12ccb5e3c872f5588a32437f03fef0b154b)       | *May 1, 2024*  | [`v0.4.4`](https://github.com/holochain/lair/tree/826be915efc839d1d1b8a2156b158999b8de8d5b) | [v0.4.0-dev.1/flake.nix](v0.4.0-dev.1/flake.nix)             |
-| [`v0.4.0-dev.8`](https://github.com/holochain/holochain/tree/db897af50d3fb25e819c05096f2cb5df3603fd75)       | *Jun 12, 2024* | [`v0.4.4`](https://github.com/holochain/lair/tree/826be915efc839d1d1b8a2156b158999b8de8d5b) | [v0.4.0-dev.8/flake.nix](v0.4.0-dev.8/flake.nix)             |
+| [`v0.4.0-dev.8`](https://github.com/holochain/holochain/tree/db897af50d3fb25e819c05096f2cb5df3603fd75)       | *Jun 12, 2024* | [`v0.4.5`](https://github.com/holochain/lair/tree/6a84ed490fc7074d107e38bbb4a8d707e9b8e066) | [v0.4.0-dev.8/flake.nix](v0.4.0-dev.8/flake.nix)             |
 
 
 ### Pre-beta Versions
